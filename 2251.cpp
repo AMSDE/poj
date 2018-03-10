@@ -11,13 +11,6 @@ struct ad{
 }s,t,que[27005];
 int Mp[35][35][35],H,N,M,Ans;
 bool vis[35][35][35];
-void dfs(ad x,int s){
-	if (x==t){
-		Ans=min(Ans,s);return ;
-	}
-	if (s>=Ans) return ;
-	
-}
 int main()
 {
 	while (1){
